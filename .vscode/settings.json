@@ -5,6 +5,7 @@
         "agregar",
         "aleatoria",
         "añadir",
+<<<<<<< HEAD
         "apellido",
         "argumento",
         "borrando",
@@ -25,11 +26,20 @@
         "desde",
         "detalles",
         "devuelve",
+=======
+        "argumento",
+        "borrando",
+        "borrar",
+        "cadena",
+        "caso",
+        "cualquier",
+>>>>>>> 1b25792ad58a6c7f8da9aca8d4bf547d642fe522
         "diferencia",
         "elemento",
         "elementos",
         "elimina",
         "eliminar",
+<<<<<<< HEAD
         "empezando",
         "encontrar",
         "encuentra",
@@ -60,12 +70,29 @@
         "múltiples",
         "necesitas",
         "nombre",
+=======
+        "encuentra",
+        "entonces",
+        "esta",
+        "estan",
+        "existe",
+        "función",
+        "hacer",
+        "índice",
+        "lista",
+        "listas",
+        "matematicsa",
+        "mismo",
+        "modificar",
+        "múltiples",
+>>>>>>> 1b25792ad58a6c7f8da9aca8d4bf547d642fe522
         "nuevo",
         "numeros",
         "objeto",
         "operaciones",
         "ordenados",
         "Otra",
+<<<<<<< HEAD
         "otro",
         "palabra",
         "palabras",
@@ -76,6 +103,11 @@
         "pueden",
         "reemplaza",
         "repite",
+=======
+        "pero",
+        "puede",
+        "pueden",
+>>>>>>> 1b25792ad58a6c7f8da9aca8d4bf547d642fe522
         "resto",
         "sirve",
         "Tambien",
@@ -84,11 +116,15 @@
         "tira",
         "todos",
         "tomar",
+<<<<<<< HEAD
         "trabajo",
         "tupla",
         "ubicación",
         "utilizamos",
         "veces"
+=======
+        "tupla"
+>>>>>>> 1b25792ad58a6c7f8da9aca8d4bf547d642fe522
     ],
     "[python]": {
         "editor.defaultFormatter": "ms-python.autopep8"
