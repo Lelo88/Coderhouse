@@ -18,3 +18,8 @@ if (a>b):print("a es mayor")
 elif(b>a): print("b es mayor")
 else: print("Los numeros son iguales")
 
+# tambien podemos escribirlos con operadores ternarios
+
+edad = 18
+mensaje = "Es mayor de edad" if edad>=18 else "Es menor de edad"
+print(mensaje)
