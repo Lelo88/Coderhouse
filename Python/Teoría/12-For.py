@@ -44,4 +44,16 @@ for numero in range(10):
     else:
         print("Se terminó de iterar y numero vale: ", numero)
 
+#agregamos una for-else mas para mostrar mejor el ejemplo
 
+numero2 = 10
+
+for num in range(5):
+    print(num)
+    if num == numero2:
+        print("encontrado", numero2)
+        break
+else:
+    print("no encontrado")
+    
+    
