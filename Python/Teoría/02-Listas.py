@@ -60,4 +60,11 @@ print(nuevaListaNums.index(2)) #me indica que el indice donde se encuentra 2
 #count: nos indica el numero de veces que un valor se repite en la lista
 print(nuevaListaNums.count(1)) #me va a indicar que el numero 1 se repite 3 veces
 
+nuevalistaconrange = list(range(1,11))
+print(nuevalistaconrange) #imprime los numeros del uno al 10 generados con range
 
+matriz = [[1,2,3],[4,5,6],[7,8,9]]
+print(matriz) #una matriz es una lista de listas
+
+chars = list('abc') #un listado de caracteres
+print(chars)
