@@ -20,3 +20,12 @@ numeros = list(range(21))
 print(numeros)
 
 print(numeros[1::2])
+
+#------------------------------------------------------------------
+
+#desempaquetado de numeros
+
+otrosnumeros = [1,2,3,4,5]
+primer, segundo, *otros = otrosnumeros
+print(primer, segundo, *otros)
+
