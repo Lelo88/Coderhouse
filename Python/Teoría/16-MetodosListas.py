@@ -18,3 +18,23 @@ print(numeros2)
 numeros2.sort(reverse=True) #la inversa de sort
 print(numeros2)
 
+#--------------------------------------
+#podemos tener los siguientes listados en una lista
+
+usuarios = [
+    ["Chanchito", 4],
+    ["Felipe", 1],
+    ["Juan", 3],	
+]
+
+def ordenarUsuarios(usuarios1):
+    return usuarios1[1]
+
+usuarios.sort(key=ordenarUsuarios) #pasamos la referencia ordenar usuarios, ya que sort la hace
+print(usuarios)
+
+#--------------------------------
+#funciones lambda
+
+usuarios.sort(key=lambda x: x[1], reverse=True)
+print(usuarios)
