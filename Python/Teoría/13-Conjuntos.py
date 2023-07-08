@@ -49,3 +49,19 @@ print(2 in numeros2)  # tira true
 
 while numeros2:
     print(f'se esta borrando: {numeros2.pop()}')
+
+
+# lo que podemos hacer es convertir conjuntos en listados
+
+primer = {1,1,2,2,3,4}
+segundo = [3,4,5]
+segundo = set(segundo) # puedo convertir el listado en un conjunto
+
+print(primer | segundo) # union (no se repiten los datos en un set)
+print(primer & segundo) # interseccion (devuelven los elementos que se encuentren en ambos sets)
+print(primer - segundo) # diferencia (devuelven los elementos que se encuentren en el primer set pero no en el segundo)
+print(primer ^ segundo) # diferencia (devuelven los elementos que se encuentren en el primer set y no en el segundo{1, 2, 3, 4, 5}
+#{1, 2, 3, 4, 5}
+#{3, 4}
+#{1, 2}
+#{1, 2, 5}
