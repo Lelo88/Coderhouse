@@ -34,3 +34,21 @@ print(miTupla.count(7))
 print(miTupla.index(7))
 
 #----------------------
+
+# podemos iterar una tupla como si fuera un listado, PERO NO SE PUEDE MODIFICAR LOS ELEMENTOS QUE SE ENCUENTRAN 
+# DENTRO DE ELLA
+
+numeros = (1,2,3,4)
+
+for num in numeros:
+    print(num)
+    
+# lo que si puedo hacer es convertir la tupla a una lista para poder modificarla (no originalment, por la propia definicion de la tupla)
+
+listaNumeros = list(numeros)
+print(listaNumeros)
+
+listaNumeros[0] = 10
+print(listaNumeros)
+    
+    
