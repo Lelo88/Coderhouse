@@ -3,7 +3,7 @@
 
 archivo = open("Ejercitación/Archivos/tabla-n.txt", "w", encoding="utf-8")
 
-numero = int(input("Ingrese un numero del 1 al 10: "))
+numero = int(input("Ingrese un a numero del 1 al 10: "))
 
 while (numero<1) or (numero>10):
     numero = int(input("Ingrese un numero del 1 al 10: "))
